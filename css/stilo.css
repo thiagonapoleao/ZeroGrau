@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'FonteLogo';
+    src: url("../fonts/goodvibes.ttf");
+}
+
+div#logotipo  {
+    font-family: 'FonteLogo', sans-serif;
+    font-size: 30pt;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .1);
+   
+    text-align: center;
+}
+
+/* Foematação a interface - colocando tudo dentro de um contener em possicionamento realativo */
+
+/* Foematação a interface - colocando tudo dentro de um contener em possicionamento realativo */
+div#interface {
+        width: 80%; /* delemitar o contener na pagina */
+        background-color: #ffffff; /* a cor do contener da pagina */
+        margin: -20px auto 10px auto; /* configuração da margem  externa da pagina sempre na seguencia - cima / direita / baixo / esquerda */
+        box-shadow: 0px 0px 10px rgba(0,0,0,.5); /* a sombra em volta do objeto */
+        padding: 10px 10px 10px 10px; /* configuração da margem  interna da pagina sempre na seguencia - cima / direita / baixo / esquerda */
+}
+
+
+section#corpo {
+    display: block;
+    width: 10%;
+    float: left;
+    border-right: 1px solid #606060;
+    padding-right: 1px; 
+}
+article#noticia-principal h2 {
+    font-size: 13pt;
+    color: #606060;
+    background-color: #dddddd;
+    padding: 5px 0px 5px 10px;
+    margin: 10px 0px 10px 0px;
+
+}
+
+aside#lateral {
+    display: block;
+    width: 90%;
+    float: right;
+    background-color: #dddddd;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,.5);/* tag<box-shadow> sobra na escrita */
+}
+
+
+header#cabecalho-artigo h1 {
+    font-family: 'FonteLogo', sans-serif;
+    font-size: 20pt;
+    color: #606060;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.canto-direito{
+    text-align: right;
+}
+header#cabecalho-artigo h2 {
+    font-size: 13pt;
+    color: #cecece;
+    background-color: #ffffff;
+    margin: 0px;
+}
+header#cabecalho-artigo h3 {
+    font-size: 12px;
+    color: #606060;
+}
+
+div#texto span {
+    font-family: 'Arial', sans-serif;
+    font-size: 12pt;
+    text-justify: auto;
+}
+
+div#valor span {
+    font-family: 'Verdana' ,sans-serif;
+    font-size: 12pt;
+}
+
+
+table#tbl {
+    border-bottom: 1px #606060 solid;
+}
+
+div#cabecalho {
+    margin-top: 10px;
+}
+
+
+
+
+img#img {
+    display:  block;
+    
+}
+
+div#visual {
+   border-style: solid; 
+}
+
+
+
+.content {
+    overflow: hidden;
+}
+
+.aside {
+    width: 100px;
+}
+
+.fleft {
+    float: left;
+}
+
+.fright {
+    float: right;
+}
